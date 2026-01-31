@@ -1,28 +1,13 @@
-/* About Us Styling */
+/* This class is specifically required for Question 3 */
+.background-image {
+    background-image: url('https://images.unsplash.com/photo-1466781783364-3919913ed4c2?q=80&w=2071&auto=format&fit=crop'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
 .about-us-container {
     padding: 40px;
     text-align: center;
-    background-color: #e8f5e9; /* Soft green background */
-    border-radius: 15px;
-    margin: 20px;
-}
-
-.about-us-title {
-    color: #2e7d32;
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-}
-
-.about-us-description {
-    font-style: italic;
-    font-size: 1.2rem;
-    color: #4caf50;
-}
-
-.about-us-content {
-    line-height: 1.6;
-    max-width: 800px;
-    margin: 20px auto;
-    font-size: 1.1rem;
-    color: #333;
 }
